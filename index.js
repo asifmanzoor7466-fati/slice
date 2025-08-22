@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <style>
 
-
-    .a{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    </style>
-  </head>
-
-<body>
-  <div class="a">
-  
-  <h2 style="background-color: blue; color: white;">Enter a Number:</h2>
-  <input type="text" id="numInput">
-  <button onclick="checkNumber()">Submit</button>
-
-  <p id="result"></p>
-
-  <script>
     function checkNumber() {
       const input = document.getElementById("numInput").value;
       const result = document.getElementById("result");
